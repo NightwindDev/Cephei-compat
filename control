@@ -1,0 +1,9 @@
+Package: com.nightwind.cephei-compat
+Name: Cephei-compat
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Fixes an incompatibility with new versions of Cephei that certain patched tweaks have. Adds back the old `translucentNavigationBar` property from earlier versions of Cephei in order to prevent a `didNotRecognizeSelector:` exception being thrown. Tested with Shortmoji 2.
+Maintainer: Nightwind
+Author: Nightwind
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 2.0)
